@@ -1,0 +1,2756 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TYPE-C_16PIN_2MD_073__50d57dda-812f-56f6-8688-c82e468276e5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "USB"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "TYPE-C 16PIN 2MD(073)"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "USB?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-25,-65,25,65"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start -6.35 -16.51)
+		  (end 6.35 16.51)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -8.89 13.97 0)
+		  (length 2.54)
+		  (name "GND" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "A1B12" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 11.43 0)
+		  (length 2.54)
+		  (name "VBUS" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "A4B9" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 8.89 0)
+		  (length 2.54)
+		  (name "SBU2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "B8" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 6.35 0)
+		  (length 2.54)
+		  (name "CC1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "A5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 3.81 0)
+		  (length 2.54)
+		  (name "Dn2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "B7" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 1.27 0)
+		  (length 2.54)
+		  (name "Dp1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "A6" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 -1.27 0)
+		  (length 2.54)
+		  (name "Dn1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "A7" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 -3.81 0)
+		  (length 2.54)
+		  (name "Dp2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "B6" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 -6.35 0)
+		  (length 2.54)
+		  (name "SBU1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "A8" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 -8.89 0)
+		  (length 2.54)
+		  (name "CC2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "B5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 -11.43 0)
+		  (length 2.54)
+		  (name "VBUS" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "B4A9" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -8.89 -13.97 0)
+		  (length 2.54)
+		  (name "GND" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "B1A12" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 8.89 -13.97 180)
+		  (length 2.54)
+		  (name "EH" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "14" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 8.89 13.97 180)
+		  (length 2.54)
+		  (name "EH" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "13" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "TPD2EUSB30ADRTR_7ac8c9e2-c630-589b-b851-66b32dfd3a26"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "D"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "TPD2EUSB30ADRTR"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "D?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-40.5,-30.5,40.5,50"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy -1.27 4.064) (xy -1.778 3.556))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 5.08 -5.08) (xy -5.08 -5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 5.08 10.16) (xy -5.08 10.16))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 -7.62) (xy 0 10.16))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 5.08 -5.08) (xy 5.08 10.16))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.81 -2.54) (xy 5.08 0) (xy 5.08 0) (xy 6.35 -2.54) (xy 6.35 -2.54) (xy 3.81 -2.54) (xy 3.81 -2.54))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 5.08 0) (xy 3.81 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 6.35 0) (xy 5.08 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.81 5.08) (xy 5.08 7.62) (xy 5.08 7.62) (xy 6.35 5.08) (xy 6.35 5.08) (xy 3.81 5.08) (xy 3.81 5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 5.08 7.62) (xy 3.81 7.62))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 6.35 7.62) (xy 5.08 7.62))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 10.16 2.54) (xy 5.08 2.54))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 -5.08) (xy -5.08 10.16))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.81 -2.54) (xy -5.08 0) (xy -5.08 0) (xy -6.35 -2.54) (xy -6.35 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.54))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 0) (xy -3.81 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -6.35 0) (xy -5.08 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.81 5.08) (xy -5.08 7.62) (xy -5.08 7.62) (xy -6.35 5.08) (xy -6.35 5.08) (xy -3.81 5.08) (xy -3.81 5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 7.62) (xy -3.81 7.62))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -6.35 7.62) (xy -5.08 7.62))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -10.16 2.54) (xy -5.08 2.54))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 1.27 1.524) (xy 0 4.064) (xy 0 4.064) (xy -1.27 1.524) (xy -1.27 1.524) (xy 1.27 1.524) (xy 1.27 1.524))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 1.778 4.572) (xy 1.27 4.064))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 4.064) (xy 1.27 4.064))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -1.27 4.064) (xy 0 4.064))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(rectangle
+		  (start -10.16 -7.62)
+		  (end 10.16 12.7)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(text "D+"
+		  (at 9.652 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(justify right)
+			)
+		)
+		(text "D-"
+		  (at -9.652 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(pin passive line
+		  (at 0 -10.16 90)
+		  (length 2.54)
+		  (name "GND" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 12.7 2.54 180)
+		  (length 2.54)
+		  (name "D+" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -12.7 2.54 0)
+		  (length 2.54)
+		  (name "D-" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "MKDSN_1_5__2-5_08_65835749-14fa-5293-81d1-c803fdce0acc"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "MKDSN 1,5/ 2-5,08"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "U?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5183989"
+		  (id 8)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact(菲尼克斯)"
+		  (id 9)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MKDSN 1,5/ 2-5,08"
+		  (id 10)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Class" "Extended Part"
+		  (id 11)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "0,-20,30,20"
+		  (id 12)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start 0 -5.08)
+		  (end 7.62 5.08)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -5.08 -2.54 0)
+		  (length 5.08)
+		  (name "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -5.08 2.54 0)
+		  (length 5.08)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "CH224K_fa0d9f06-14b4-55de-9a42-bb5a92d0d387"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "CH224K"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "U?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-35,-55,30,50"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start -8.89 -13.97)
+		  (end 7.62 12.7)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at 0 15.24 270)
+		  (length 2.54)
+		  (name "VDD" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 6.35 180)
+		  (length 2.54)
+		  (name "CFG2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 3.81 180)
+		  (length 2.54)
+		  (name "CFG3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -11.43 1.27 0)
+		  (length 2.54)
+		  (name "DP" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "4" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -11.43 -1.27 0)
+		  (length 2.54)
+		  (name "DM" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -11.43 -10.16 0)
+		  (length 2.54)
+		  (name "CC2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "6" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -11.43 -7.62 0)
+		  (length 2.54)
+		  (name "CC1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "7" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -11.43 10.16 0)
+		  (length 2.54)
+		  (name "VBUS" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "8" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 8.89 180)
+		  (length 2.54)
+		  (name "CFG1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "9" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 -11.43 180)
+		  (length 2.54)
+		  (name "PG" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "10" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 0 -16.51 90)
+		  (length 2.54)
+		  (name "GND" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "11" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "TPS70933DBVR_94cb9476-a94a-5cf9-ab99-2a4188d97fc4"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LDO"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "TPS70933DBVR"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "LDO?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-30,-22,30,22"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start -7.62 -5.588)
+		  (end 7.62 5.588)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -10.16 2.54 0)
+		  (length 2.54)
+		  (name "IN" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 0 0)
+		  (length 2.54)
+		  (name "GND" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -2.54 0)
+		  (length 2.54)
+		  (name "EN" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 -2.54 180)
+		  (length 2.54)
+		  (name "NC" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "4" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 2.54 180)
+		  (length 2.54)
+		  (name "OUT" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "DSHP03TS-S_3ece566b-d42b-577a-8ea8-d1edad20c6e5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "SW"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "DSHP03TS-S"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "SW?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-20.5,-20.5,20.5,20.5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy 5.08 -5.08) (xy 5.08 5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 -5.08) (xy 5.08 -5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 5.08) (xy -5.08 -5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 -2.032) (xy 0 -3.048))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.302 -3.048) (xy -3.302 -2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.302 -3.048) (xy -3.302 -3.048))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.302 -2.032) (xy 3.302 -3.048))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.302 -2.032) (xy 3.302 -2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 0.508) (xy 0 -0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.302 -0.508) (xy -3.302 0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.302 -0.508) (xy -3.302 -0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.302 0.508) (xy 3.302 -0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.302 0.508) (xy 3.302 0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.81 4.572) (xy 3.81 3.556))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0.762 4.064) (xy 3.81 4.064))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 1.016 3.81) (xy 0.762 4.064))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 5.08) (xy 5.08 5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 3.048) (xy 0 2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.302 2.032) (xy -3.302 3.048))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.302 2.032) (xy -3.302 2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.302 3.048) (xy 3.302 2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.302 3.048) (xy 3.302 3.048))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at 10.16 -2.54 180)
+		  (length 5.08)
+		  (name "4" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "4" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 0 180)
+		  (length 5.08)
+		  (name "5" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 2.54 180)
+		  (length 5.08)
+		  (name "6" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "6" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -2.54 0)
+		  (length 5.08)
+		  (name "3" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 0 0)
+		  (length 5.08)
+		  (name "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 2.54 0)
+		  (length 5.08)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "CL05B104KB54PNC_dd95f935-f49f-52b3-a985-d8606a067399"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "C"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "CL05B104KB54PNC"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "C?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-10.5,-8.5,10.5,8.5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy -0.508 2.032) (xy -0.508 -2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 2.54 0) (xy 0.508 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0.508 -2.032) (xy 0.508 2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -0.508 0) (xy -2.54 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -5.08 0 0)
+		  (length 2.54)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+		(pin passive line
+		  (at 5.08 0 180)
+		  (length 2.54)
+		  (name "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+	)
+	(symbol "0402WGF1002TCE_760f6582-d1c9-55c4-9be9-02b8a42138c9"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "R"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "0402WGF1002TCE"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "R?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-10,-4,10,4"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start -2.54 -1.016)
+		  (end 2.54 1.016)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at 5.08 0 180)
+		  (length 2.54)
+		  (name "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+		(pin passive line
+		  (at -5.08 0 0)
+		  (length 2.54)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+	)
+	(symbol "HP02WAF1001TCE_ada1bab8-2379-5107-8741-5f1dd9e92e2b"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "R"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "HP02WAF1001TCE"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "R?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-10,-5,10,5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start -2.54 -1.27)
+		  (end 2.54 1.27)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at 5.08 0 180)
+		  (length 2.54)
+		  (name "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+		(pin passive line
+		  (at -5.08 0 0)
+		  (length 2.54)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+	)
+	(symbol "CL10B105KB8NQNC_c10af518-e980-59d3-8b20-59082d24143e"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "C"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "CL10B105KB8NQNC"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "C?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-10.5,-8.5,10.5,8.5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy 0.508 0) (xy 2.54 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -0.508 -2.032) (xy -0.508 2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.54 0) (xy -0.508 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0.508 2.032) (xy 0.508 -2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -5.08 0 0)
+		  (length 2.54)
+		  (name "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+		(pin passive line
+		  (at 5.08 0 180)
+		  (length 2.54)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+	)
+	(symbol "E6C0805UR_99915277-5db6-5513-abdc-ef4dd6851921"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "LED"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "E6C0805UR"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "LED?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-15.5,-22.5,5.5,3.5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy -3.81 -0.254) (xy -2.794 -0.762) (xy -2.794 -0.762) (xy -3.302 -1.27) (xy -3.302 -1.27) (xy -3.81 -0.254) (xy -3.81 -0.254))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.794 0.762) (xy -1.778 0.254) (xy -1.778 0.254) (xy -2.286 -0.254) (xy -2.286 -0.254) (xy -2.794 0.762) (xy -2.794 0.762))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.032 -2.032) (xy -3.81 -0.254))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -1.016 -1.016) (xy -2.794 0.762))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -1.27 -1.524) (xy -1.27 -5.588))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 1.27 -5.08) (xy -1.27 -3.556) (xy -1.27 -3.556) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 -5.08) (xy 1.27 -5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -5.08 -3.556 0)
+		  (length 3.81)
+		  (name "K" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+		(pin passive line
+		  (at 5.08 -3.556 180)
+		  (length 3.81)
+		  (name "A" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+	)
+	(symbol "2N7002T-7-F_2f6a8fec-3da5-59ae-ab94-2eea8b5a0788"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "Q"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "2N7002T-7-F"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "Q?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-20.5,-20.5,20.5,20.5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy -2.54 2.032) (xy 0 2.032) (xy 0 2.032) (xy 0 2.54) (xy 0 2.54) (xy 2.54 2.54) (xy 2.54 2.54) (xy 2.54 0.762))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.54 0) (xy 0 0) (xy 0 0) (xy 0 -2.54) (xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -0.762))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 -1.778) (xy -2.54 -1.778))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.048 2.286) (xy -3.048 -2.286))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.54 2.286) (xy -2.54 1.27))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.54 -0.508) (xy -2.54 0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.54 -2.286) (xy -2.54 -1.27))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -5.08 0) (xy -3.048 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 2.54) (xy 0 5.08))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 0 -5.08) (xy 0 -2.54))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.54 0) (xy -1.016 0.508) (xy -1.016 0.508) (xy -1.016 -0.508) (xy -1.016 -0.508) (xy -2.54 0) (xy -2.54 0))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 2.54 0.508) (xy 3.302 -0.762) (xy 3.302 -0.762) (xy 1.778 -0.762) (xy 1.778 -0.762) (xy 2.54 0.508) (xy 2.54 0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 3.556 1.016) (xy 3.302 0.762) (xy 3.302 0.762) (xy 1.778 0.762) (xy 1.778 0.762) (xy 1.524 0.508))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at 0 -10.16 90)
+		  (length 5.08)
+		  (name "S" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 0 0)
+		  (length 5.08)
+		  (name "G" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 0 10.16 270)
+		  (length 5.08)
+		  (name "D" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "MC14051BDR2G_14cfb8aa-dab8-5b2b-bf6f-ea42fc03e4e2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "MC14051BDR2G"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "U?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-30,-50,30,45"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(rectangle
+		  (start -7.62 -12.7)
+		  (end 7.62 11.43)
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -1.27 -15.24 90)
+		  (length 2.54)
+		  (name "VEE" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "7" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 1.27 -15.24 90)
+		  (length 2.54)
+		  (name "VSS" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "8" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 7.62 0)
+		  (length 2.54)
+		  (name "A" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "11" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 7.62 180)
+		  (length 2.54)
+		  (name "X" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 10.16 1.27 180)
+		  (length 2.54)
+		  (name "INH" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "6" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 5.08 0)
+		  (length 2.54)
+		  (name "B" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "10" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 2.54 0)
+		  (length 2.54)
+		  (name "C" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "9" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -2.54 0)
+		  (length 2.54)
+		  (name "X2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "15" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -1.27 0)
+		  (length 2.54)
+		  (name "X1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "14" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 0 0)
+		  (length 2.54)
+		  (name "X0" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "13" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -3.81 0)
+		  (length 2.54)
+		  (name "X3" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "12" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -5.08 0)
+		  (length 2.54)
+		  (name "X4" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -6.35 0)
+		  (length 2.54)
+		  (name "X5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "5" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -7.62 0)
+		  (length 2.54)
+		  (name "X6" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at -10.16 -8.89 0)
+		  (length 2.54)
+		  (name "X7" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "4" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+		(pin passive line
+		  (at 0 13.97 270)
+		  (length 2.54)
+		  (name "VDD" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		  (number "16" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "0805G__Green__e0cd10d8-4316-59fa-b953-96d59b72b198"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "LED"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "0805G (Green)"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "LED?"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-16.5,-8.5,5.5,17.5"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(polyline
+		  (pts (xy -4.064 3.302) (xy -3.048 2.794) (xy -3.048 2.794) (xy -3.556 2.286) (xy -3.556 2.286) (xy -4.064 3.302) (xy -4.064 3.302))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -3.048 4.318) (xy -2.032 3.81) (xy -2.032 3.81) (xy -2.54 3.302) (xy -2.54 3.302) (xy -3.048 4.318) (xy -3.048 4.318))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -2.286 1.524) (xy -4.064 3.302))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -1.27 2.54) (xy -3.048 4.318))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy -1.27 2.032) (xy -1.27 -2.032))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(polyline
+		  (pts (xy 1.27 -1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 1.778) (xy 1.27 1.778) (xy 1.27 -1.524) (xy 1.27 -1.524))
+		  (stroke (width 0) (type default) (color 0 0 0 0.0000))
+		  (fill (type none))
+		)
+		(pin passive line
+		  (at -5.08 0 0)
+		  (length 3.81)
+		  (name "K" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "2" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+		(pin passive line
+		  (at 5.08 0 180)
+		  (length 3.81)
+		  (name "A" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		)
+	)
+	(symbol "MountingHole_GND_M2_2355b2e6-7c05-5785-b246-cccd5832c673"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(property "Reference" "MH"
+		  (id 0)
+		  (at -2 2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "MountingHole_GND_M2"
+		  (id 1)
+		  (at -2 -2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+		  (id 2)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+		  (id 3)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_version" "2"
+		  (id 4)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "head_symbolType" "2"
+		  (id 5)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Add into BOM" "no"
+		  (id 6)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designator" "MH?"
+		  (id 7)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_bbox" "-1.4212598425196852,-6.421259842519685,11.421259842519685,6.421259842519685"
+		  (id 8)
+		  (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(pin passive line
+		  (at -2.032 0 0)
+		  (length 2)
+		  (name "1" (effects (font (size 1.27 1.27) (thickness 0.1524)) hide))
+		  (number "1" (effects (font (size 1.27 1.27) (thickness 0.1524))))
+		)
+	)
+	(symbol "GND_26e5e3d4-4580-5582-8908-8008c16c411a"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GND_26e5e3d4-4580-5582-8908-8008c16c411a_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 -1.27)
+					(xy 1.27 -1.27)
+					(xy 0 -2.54)
+					(xy -1.27 -1.27)
+					(xy 0 -1.27)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "GND_26e5e3d4-4580-5582-8908-8008c16c411a_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0)
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+	(symbol "VBUS_791cf49c-11c1-5d71-bcf6-37441b411048"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VBUS_791cf49c-11c1-5d71-bcf6-37441b411048_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27)
+					(xy 0 2.54)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0 2.54)
+					(xy 0.762 1.27)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 2.54)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "VBUS_791cf49c-11c1-5d71-bcf6-37441b411048_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+	(symbol "_3v3_17a5afb9-5981-53d6-b72c-adeed96270e4"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "_3v3_17a5afb9-5981-53d6-b72c-adeed96270e4_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27)
+					(xy 0 2.54)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0 2.54)
+					(xy 0.762 1.27)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 2.54)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "_3v3_17a5afb9-5981-53d6-b72c-adeed96270e4_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+)
