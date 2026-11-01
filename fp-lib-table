@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Converted")(type "KiCad")(uri "${KIPRJMOD}/USB-C_Labpower.pretty")(options "")(descr "Converted project footprints"))
+)

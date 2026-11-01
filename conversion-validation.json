@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "kind": "PCB",
+      "file": "USB-C_Labpower.kicad_pcb",
+      "returncode": 0,
+      "stdout": "Plotted to '<validation>/pcb-0.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "schematic",
+      "file": "USB-C_Labpower.kicad_sch",
+      "returncode": 0,
+      "stdout": "Plotted to '<validation>/sheet-0/USB-C_Labpower.svg'.\nPlotted to '<validation>/sheet-0/USB-C_Labpower-P1.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "schematic",
+      "file": "USB-C_Labpower_P1.kicad_sch",
+      "returncode": 0,
+      "stdout": "Plotted to '<validation>/sheet-1/USB-C_Labpower_P1.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "netlist",
+      "file": "USB-C_Labpower.kicad_sch",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "warnings": [],
+  "error": null,
+  "schematic": {
+    "files": 2,
+    "expected_component_references": 39,
+    "netlist_components": 39,
+    "netlist_nets": 81
+  }
+}

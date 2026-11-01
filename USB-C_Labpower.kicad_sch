@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20250114)
+	(generator "easyeda_pro_to_kicad")
+	(generator_version "9.0")
+	(uuid "2b4192e5-7c35-500e-9cb3-33951da0c316")
+	(paper "A4")
+	(title_block
+		(title "Schematic1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 80 70)
+		(size 29.718 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e6b0ab8-79a4-51bc-bd94-bd3108942af5")
+		(property "Sheetname" "P1"
+			(at 80 69.2888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_Labpower_P1.kicad_sch"
+			(at 80 83.4112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB-C_Labpower"
+				(path "/2b4192e5-7c35-500e-9cb3-33951da0c316"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

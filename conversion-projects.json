@@ -1,0 +1,33 @@
+{
+  "scope": "all",
+  "selected_board": null,
+  "projects": [
+    {
+      "name": "PCB1",
+      "directory": ".",
+      "project": "USB-C_Labpower.kicad_pro",
+      "pcb_id": "6fc987441bf460472194a22a7a947e90",
+      "schematic_id": "ac8f84b26d4e2f8f"
+    }
+  ],
+  "documents": [
+    {
+      "type": "pcb",
+      "id": "6fc987441bf460472194a22a7a947e90",
+      "name": "PCB1",
+      "status": "converted",
+      "directories": [
+        "."
+      ]
+    },
+    {
+      "type": "schematic",
+      "id": "ac8f84b26d4e2f8f",
+      "name": "Labpower",
+      "status": "converted",
+      "directories": [
+        "."
+      ]
+    }
+  ]
+}
